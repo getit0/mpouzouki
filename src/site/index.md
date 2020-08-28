@@ -20,7 +20,7 @@ The lists below showing NBA AllStar starting fives for 2019 were sourced from [a
 <ul class="listing">
 {%- for item in sheet.West -%}
   <li>{{ item.name }} - {{ item.team }}</li>
-  <a href="{{ item.team }}">{{ item.team }}<a/>
+  <a href="http://www.google.com?id={{ item.team }}">{{ item.team }}<a/>
 {%- endfor -%}
 </ul>
 
